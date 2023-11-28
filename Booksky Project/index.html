@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booksky Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Caprasimo&family=Kablammo&family=Lobster&family=Pacifico&family=Poppins&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="booksky.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Booksky</h1>
+    </div>
+       <br><br>
+    <div class="container">
+        <div class="book-container">
+             <h2>Polotical</h2>
+             <h5>Sabari</h5>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia cupiditate consequuntur ullam inventore, iure autem quo officiis odit fugiat porro blanditiis accusantium facere alias quibusdam! Tempora, quaerat? Ducimus, suscipit fuga.</p>
+             <button id="Delete-button">Delete</button>
+        </div> 
+        
+        </div>
+    
+    <div class="popup-overlay"></div>
+
+    <div class="popup-box">
+        <h2>Add Book</h2>
+        <br>
+        <center>
+
+            <input type="text" name="" id="book-name" style="border: none;" placeholder="Book Name...">
+            <br>
+            <br>
+            <input type="text" id="book-author" style="border: none;" placeholder="Book Author...">
+            <br>
+            <br>
+            <textarea name="" id="book-text"  placeholder="Short Discription..."></textarea>
+            <br>
+            <br>
+            <button class="add-book" type="button" onclick="addb()">Add</button>
+            <button id="cancel-button" type="button" onclick="cancel()">Cancel</button>
+
+        
+      
+     </center>
+    </div>
+
+    
+
+  
+  <button id="popup" class="add-button" onclick="add()">+</button>
+  <script src="booksky.js"></script>
+</body>
+</html>
